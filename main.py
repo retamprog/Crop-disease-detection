@@ -71,7 +71,32 @@ if appmode=='Home':
 
     ''') 
 
-elif appmode=='About':
-    st.header('About Us')
+elif appmode=='Contact us':
+   
+   #  st.logo('dpwhatsapp.jpg')
+   #  st.markdown("<img src='C:/Users/RETAM/Documents/Crop-disease-detection/dpwhatsapp.JPG' width='100' style='display: block; margin: 0 auto;'>" , unsafe_allow_html=True)
+   #  st.image("dpimage.png")
+    st.image('dpimage.png',width=200)
+    st.markdown('''
+    ## @Retam
+
+
+       Runner-Up at Smart India Hackathon
+                 
+       The enigmatic Coder and Smart Developer,fast at learning any skill and adapt to any situation.
+                
+       Currently a 3rd year student at Siksha 'O' Anushandhan,ITER college studying for B.tech in Computer Science Enginnering.
+                
+       **Proficient in :** Java,Python,C
+                
+       Currently learning Ai development in Python and dsa in Java.
+                
+       Please contact for collaboration in projects or for internships.      
+                
+       **Email :** retamphy2004@gmial.com
+                
+       **Phone Number :** 7439729596                                           
+
+    ''') 
     
-    
+elif appmode==''    
